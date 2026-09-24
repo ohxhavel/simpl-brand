@@ -16,4 +16,7 @@ pnpm tokens:check   # fails if the generated files are stale
   and add a tab in `components/site-header.tsx`.
 - **Marks:** both the Simpl Solutions and Simpl Gateway marks are placeholders drawn in code. No logo files exist
   until they are signed off.
-- **DNS:** see [`docs/dns.md`](docs/dns.md).
+- **Deploy:** every push to `main` builds a static export (`out/`) and publishes it to GitHub Pages via
+  `.github/workflows/pages.yml`. The custom domain is set in Settings → Pages.
+- **DNS:** `brand.simplsolutions.io` is a CNAME to `ohxhavel.github.io`, managed through the simpl-dns pipeline.
+  Request changes in Notion → DNS Change Requests.
