@@ -336,7 +336,7 @@ export function Social() {
               <div className="max-w-[22em] font-display text-[22px] leading-[1.15] font-light text-on-ink-strong lg:text-[24px]">
                 One key, every model — inside a boundary you can audit
               </div>
-              <Mono className="text-[10px] tracking-[0.08em] text-comment uppercase">gateway.simplsolutions.io</Mono>
+              <Mono className="text-[10px] tracking-[0.08em] text-comment uppercase">simplsolutions.io</Mono>
             </Specimen>
             <Caption>OG / Twitter card · 1200 × 630 · ink ground, 56px padding, one headline</Caption>
           </div>
@@ -561,7 +561,6 @@ export function Legal() {
             <div className="font-mono text-[11.5px] leading-[1.9] text-foreground">
               <div>© 2026 Simpl Solutions Ltd</div>
               <div>Simpl Gateway, from Simpl Solutions</div>
-              <div>gateway.simplsolutions.io</div>
             </div>
             <p className="mt-[9px]!">
               Footer order: copyright, entity, then legal links. The entity name — not the product — signs contracts,
