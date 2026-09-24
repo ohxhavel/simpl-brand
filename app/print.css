@@ -1,0 +1,21 @@
+/* Brand guide: printable at A3 portrait, one panel per unbroken block. */
+@page {
+  size: A3 portrait;
+  margin: 12mm;
+}
+
+@media print {
+  .brand-guide {
+    background: none;
+    padding: 0;
+    gap: 18px;
+  }
+
+  [data-panel] {
+    break-inside: avoid;
+  }
+
+  [data-break] {
+    break-before: page;
+  }
+}

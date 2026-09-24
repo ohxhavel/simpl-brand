@@ -1,0 +1,61 @@
+/* GENERATED from brand/tokens.json by scripts/build-tokens.mjs — do not edit. Run `pnpm tokens`. */
+
+:root,
+[data-theme="light"] {
+  --sg-canvas: #DCD7CE;
+  --sg-surface: #F6F3EE;
+  --sg-surface-raised: #EEEBE3;
+  --sg-surface-inverted: #12241F;
+  --sg-border: #DFDAD0;
+  --sg-border-strong: #C9C3B8;
+  --sg-text: #2C322F;
+  --sg-text-strong: #1D3A34;
+  --sg-text-muted: #5A6560;
+  --sg-text-label: #8D9B96;
+  --sg-accent: #C96F4A;
+  --sg-accent-text: #A8532F;
+  --sg-healthy: #3F6F5C;
+  --sg-degraded: #B0863A;
+  --sg-failed: #9E3B30;
+  --sg-unbuilt: #7C8B95;
+  --sg-code-comment: #5F7A72;
+  --sg-inverted-text: #DFE5E1;
+  --sg-inverted-strong: #F6F3EE;
+  --sg-inverted-muted: #A9B6B1;
+  --sg-inverted-accent: #E08A62;
+  --sg-radius-ctl: 8px;
+  --sg-radius-card: 12px;
+  --sg-radius-panel: 14px;
+  --sg-radius-page: 20px;
+  --sg-duration-fast: 120ms;
+  --sg-duration-enter: 180ms;
+  --sg-duration-panel: 240ms;
+  --sg-ease: cubic-bezier(0.2,0,0,1);
+  --sg-shadow-menu: 0px 8px 24px 0px #12241F1F;
+}
+
+.dark,
+[data-theme="dark"] {
+  --sg-canvas: #12241F;
+  --sg-surface: #17302A;
+  --sg-surface-raised: #1D3A34;
+  --sg-surface-inverted: #0B1512;
+  --sg-border: #2A473F;
+  --sg-border-strong: #2A473F;
+  --sg-text: #DFE5E1;
+  --sg-text-strong: #F6F3EE;
+  --sg-text-muted: #A9B6B1;
+  --sg-text-label: #8D9B96;
+  --sg-accent: #E08A62;
+  --sg-accent-text: #E8A183;
+  --sg-healthy: #6FA98F;
+  --sg-degraded: #D4A857;
+  --sg-failed: #D97A6C;
+  --sg-unbuilt: #9AA9B2;
+  --sg-code-comment: #5F7A72;
+  --sg-inverted-text: #DFE5E1;
+  --sg-inverted-strong: #F6F3EE;
+  --sg-inverted-muted: #A9B6B1;
+  --sg-inverted-accent: #E08A62;
+  --sg-shadow-menu: none;
+}
